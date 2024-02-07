@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #000000;
+  min-width: 500px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.border {
+  border: 2px;
+}
+.top {
+  width: 100vw;
+  height: 91.2vh;
+  display: flex;
+}
+.left {
+  width: 14%;
+  min-width: 200px;
+  height: calc(100vh - 64px);
+  background-color: #181818;
+  z-index: 2;
+}
+.left1{
+  position: fixed;
+}
+.left hr {
+  margin: 5px 10px;
+}
+.left .home .logo img {
+  width: 130px;
+  margin: 8px 0 0 8px;
+}
+.left .home ul {
+  list-style: none;
+  padding: 8px;
+}
+.left .home ul li {
+  padding: 3px 0 1px 5px;
+}
+.left a {
+  display: flex;
+  text-decoration: none;
+  color: #ffffff;
+  align-items: center;
+  gap: 3px;
+  font-size: 18px;
+}
+.left .home ul li a img {
+  width: 30px;
+  height: 30px;
+}
+.library {
+  margin: 10px 0 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.library .lib_playlist #lib_option {
+  width: 20px;
+  border-radius: 100%;
+  filter: invert(1);
+  margin-right: 8px;
+  overflow: hidden;
+}
+.library .lib_playlist #lib_option option {
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  min-height: 100px;
+}
+.right {
+  width: 86vw;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6) 0%, #121212 100%);
+  background-color: #5028f0;
+  overflow-y:scroll;
+}
+.right .nav {
+  top: 0;
+  right: 0;
+  position: sticky;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+  padding: 10px 0 10px 2px;
+}
+.right .nav .nav-arrow {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 12px;
+}
+.right .nav .nav-arrow .arrow {
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px;
+}
+.right .nav .nav-login {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #ffffff;
+  font-size: 22px;
+  margin-right: 15px;
+  border-radius: 40px;
+  padding: 5px 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.top .right .main {
+  margin-top: 70px;
+  color: #ffffff;
+  margin-left: 5px;
+}
+.top .right .main h2:nth-child(1) {
+  margin-left: 40px;
+}
+.top .right .main .m-1 {
+  margin-bottom: 20px;
+}
+.top .right .main .list1 {
+  margin-left: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.top .right .main .list1 .items {
+  height: 80px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #30294b;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 8px;
+}
+.top .right .main .list1 .items:nth-child(1) .img {
+  width: 80px;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5);
+  height: 100%;
+  background-size: 80px;
+  background-image: url("https://external-preview.redd.it/my-top-songs-2023-v0-bGrGHdhEi-EOutIUi6UMXv8XHHUSPXjI_83q52umQ4E.jpg?auto=webp&s=ba9db199c43eb4672ef304f27467270f2a7719a0");
+}
+.top .right .main .list1 .items:nth-child(2) .img {
+  width: 80px;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5);
+  height: 100%;
+  background-size: 80px;
+  background-image: url("https://i.scdn.co/image/ab67706c0000da84c8207a7b31e8f5034065a25b");
+}
+.top .right .main .list1 .items:nth-child(3) .img {
+  width: 80px;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5);
+  height: 100%;
+  background-size: 80px;
+  background-image: url("https://external-preview.redd.it/6BJBlDK9XPA27BfeVnE4YQAPeoRe2UwNzWDJ3lShyek.jpg?auto=webp&s=74386a3b1c652790f3839ced7a74cdf39354d51e");
+}
+.top .right .main .list1 .items:nth-child(4) .img {
+  width: 80px;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5);
+  height: 100%;
+  background-size: 80px;
+  background-image: url("https://i1.sndcdn.com/artworks-S3Cy53yNZifvK29p-xy4H8A-t500x500.jpg");
+}
+.top .right .main .list1 .items:nth-child(5) .img {
+  width: 80px;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5);
+  height: 100%;
+  background-size: 80px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/2/21/%3F_XXXTENTACION_Cover.png");
+}
+.top .right .main .list1 .items:nth-child(6) .img {
+  width: 80px;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5);
+  height: 100%;
+  background-size: 80px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Ed_Sheeran_-_Equals.png/220px-Ed_Sheeran_-_Equals.png");
+}
+.top .right .main .list1 .items:nth-child(7) .img {
+  width: 80px;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5);
+  height: 100%;
+  background-size: 80px;
+  background-image: url("https://m.media-amazon.com/images/I/51HG9xnTdaL._UXNaN_FMjpg_QL85_.jpg");
+}
+.top .right .main .list1 .items:nth-child(8) .img {
+  width: 80px;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5);
+  height: 100%;
+  background-size: 80px;
+  background-image: url("https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d7/df/03/d7df0340-c0b1-82b8-ed58-06d06fc03b51/8905285020939.jpg/400x400cc.jpg");
+}
+
+.top .right .main h2 {
+  margin-left: 15px;
+}
+.top .right .main .list {
+  margin-left: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 230px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.top .right .main .list .items {
+  height: 200px;
+  width: 150px;
+  background-color: #30294b;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-left: 13px;
+  margin-bottom: 13px;
+  padding: 10px;
+  position: relative;
+}
+.top .right .main .list .items .play-button {
+  width: 40px;
+  height: 40px;
+  background-color: #18b459;
+  border-radius: 100%;
+  position: absolute;
+  top: 125px;
+  right: 17px;
+  background-image: url("https://img.icons8.com/sf-black-filled/64/1A1A1A/play.png");
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+  transition: all ease 0.4s;
+}
+.top .right .main .list .items:hover .play-button {
+  opacity: 1;
+  transform: translateY(-20px);
+}
+.top .right .main .list .items .img {
+  width: 100%;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5);
+  height: 70%;
+  background-size: 150px;
+  background-repeat: no-repeat;
+}
+.top .right .main .list .items .text {
+  margin-top: 10px;
+  margin-left: 10px;
+  line-height: 24px;
+}
+.top .right .main .list .items:nth-child(1) .img {
+  background-image: linear-gradient(to bottom right, blue, white);
+}
+.top .right .main .list .items:nth-child(2) .img {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.top .right .main .list .items:nth-child(3) .img {
+  background: radial-gradient(
+    circle,
+    rgba(174, 95, 194, 1) 0%,
+    rgba(119, 233, 254, 1) 100%
+  );
+}
+.top .right .main .list .items:nth-child(4) .img {
+  background: linear-gradient(
+    325deg,
+    rgba(131, 58, 180, 1) 13%,
+    rgba(187, 25, 25, 1) 53%,
+    rgba(252, 176, 69, 1) 95%
+  );
+}
+.top .right .main .list .items:nth-child(5) .img {
+  background: linear-gradient(
+    93deg,
+    rgba(238, 174, 202, 1) 39%,
+    rgba(148, 187, 233, 1) 75%
+  );
+}
+.top .right .main .list .items:nth-child(6) .img {
+  background: linear-gradient(
+    325deg,
+    rgba(34, 193, 195, 1) 15%,
+    rgba(182, 135, 34, 1) 85%
+  );
+}
+.top .right .main .list .items:nth-child(7) .img {
+  background: radial-gradient(circle, rgba(221,145,178,1) 28%, rgba(148,187,233,1) 92%);
+}
+.top .right .main .text-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+.top .right .main .text-1 a {
+  text-decoration: none;
+  color: #ffffffc6;
+  border-radius: 12px;
+}
+.top .right hr {
+  margin: 40px 30px 100px 30px;
+}
+.bottom {
+  width: 99.7vw;
+  height: 64px;
+  min-height: 60px;
+  background-color: rgb(27, 27, 27);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  color: #ffffff;
+}
+.bottom .current-song .img {
+  width: 75px;
+  height: 55px;
+  margin-left: 3px;
+  border: 0;
+  border-radius: 5px;
+  background-size: 75px;
+  background-image: url("https://media.wired.com/photos/5926d35baf95806129f50c05/master/w_2560%2Cc_limit/SpotifyTA.jpg");
+}
+.bottom .current-song {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.bottom .current-song .text {
+  line-height: 25px;
+}
+.bottom .current-song .text h4 {
+  font-size: 20px;
+  max-height: 25px;
+  max-width: 100px;
+  overflow: hidden;
+}
+.bottom .current-song .text p {
+  font-size: 13px;
+  max-height: 20px;
+  max-width: 130px;
+  overflow: hidden;
+}
+.bottom .control .play-pause img {
+  filter: invert(1);
+  margin: 3px;
+}
+.bottom .control {
+  min-width: 250px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottom .control .play-bar {
+  width: 80%;
+}
+.bottom .control .play-bar #song-control {
+  width: 100%;
+}
+.bottom .queue img {
+  filter: invert();
+}
+.bottom .queue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-right: 8px;
+}
+.bottom .queue .vol {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
